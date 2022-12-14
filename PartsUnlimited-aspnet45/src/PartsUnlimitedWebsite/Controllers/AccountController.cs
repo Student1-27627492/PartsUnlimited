@@ -11,6 +11,7 @@ using PartsUnlimited.Models;
 namespace PartsUnlimited.Controllers
 {
     [Authorize]
+    //Testing automatic reviewer policy
     public class AccountController : Controller
     {
         private SignInManager<ApplicationUser, string> SignInManager
